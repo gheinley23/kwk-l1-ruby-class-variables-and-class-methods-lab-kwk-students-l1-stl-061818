@@ -8,9 +8,11 @@ attr_accessor :jenje, :artist, :name
     @name = name
     @@count += 1
   end
-
-
 def get_count
+  @@count
+end
+
+def self.get_count_other_way
   @@count
 end
 # def gets_my_jenje
