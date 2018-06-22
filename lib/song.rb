@@ -15,18 +15,6 @@ end
 def self.get_count_other_way
   @@count
 end
-# def gets_my_jenje
-# @jenje 
-# end
-
-# def gets_artist
-#   @artist
-# end
-
-# def gets_name
-# @name
-# end 
-
 
 end
 
