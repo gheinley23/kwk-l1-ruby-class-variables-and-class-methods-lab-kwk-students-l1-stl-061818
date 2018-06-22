@@ -6,7 +6,7 @@ attr_accessor :jenje, :artist, :name
     @jenje = jenje
     @artist = artist
     @name = name
-    @@count += @@count
+    @@count += 1
   end
 
 
