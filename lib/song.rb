@@ -20,9 +20,9 @@ end
 
 jon_song = Song.new("hippity hoppity", "jon mendez", "jon's way")
 big_song = Song.new("l","n","u")
-puts jon_song.jenje
-puts "wow! what a great choice!"
-puts jon_song.name
-puts jon_song.artist
-puts jon_song.get_count
+# puts jon_song.jenje
+# puts "wow! what a great choice!"
+# puts jon_song.name
+# puts jon_song.artist
+# puts jon_song.get_count
   
