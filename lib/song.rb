@@ -5,9 +5,12 @@ attr_accessor :jenje, :artist, :name
   def initialize(jenje,artist,name)
     @jenje = jenje
     @artist = artist
-    @name = name 
+    @name = name
+    @@count += @@count
   end
-def self.get_count
+
+
+def get_count
   @@count
 end
 # def gets_my_jenje
