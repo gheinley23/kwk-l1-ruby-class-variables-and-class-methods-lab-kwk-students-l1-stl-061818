@@ -25,4 +25,7 @@ big_song = Song.new("l","n","u")
 # puts jon_song.name
 # puts jon_song.artist
 # puts jon_song.get_count
-  
+  puts "this is the first method"
+  puts jon_son.get_count 
+  puts "this is the second method"
+  puts big_song.get_count
