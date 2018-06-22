@@ -1,14 +1,15 @@
 class Song
   
 attr_accessor :jenje, :artist, :name  
-  
+@@count = 0 
   def initialize(jenje,artist,name)
     @jenje = jenje
     @artist = artist
     @name = name 
   end
-
-
+def self.get_count
+  @@count
+end
 # def gets_my_jenje
 # @jenje 
 # end
