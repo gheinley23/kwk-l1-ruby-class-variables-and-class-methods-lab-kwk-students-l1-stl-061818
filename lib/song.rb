@@ -28,4 +28,4 @@ big_song = Song.new("l","n","u")
   puts "this is the first method"
   puts jon_song.get_count 
   puts "this is the second method"
-  puts big_song.get_count
+  puts Song.get_count_other_way
